@@ -1,0 +1,17 @@
+{
+	"name": "二维码地址",
+	"version": "0.1",
+	"manifest_version": 2,
+	// "key":"",
+	"description": "生成二维码，方便手机扫描访问",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": ["tabs","http://*/*", "https://*/*"],
+	"browser_action": {
+		"default_title": "",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+	
+}
